@@ -22,6 +22,10 @@ public class Principal {
 		
 		System.out.println("\n Valor minimo= "+n.getValor());
 		
+		n=e.valorMaximo();
+		
+		System.out.println(("\n Valor máximo= "+n.getValor()));
+		
 
 	}
 

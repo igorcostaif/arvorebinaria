@@ -103,5 +103,23 @@ public class Estrutura {
 		
 	}
 	
+	public No valorMaximo() {
+		
+		return valorMaximo(this.raiz);
+		
+	}
+	
+	private No valorMaximo(No no) {
+		
+		if(no.getDireita()!=null) {
+			
+			no = valorMaximo(no.getDireita());
+			
+		}
+		
+		return no;
+		
+	}
+	
 
 }
